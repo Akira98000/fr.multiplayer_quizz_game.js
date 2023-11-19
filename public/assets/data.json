@@ -1,0 +1,21 @@
+[
+    {
+        "question": "Quelle est la capitale de la France ?",
+        "answers": [
+            { "text": "Paris", "correct": true },
+            { "text": "Lyon", "correct": false },
+            { "text": "Marseille", "correct": false },
+            { "text": "Nice", "correct": false }
+        ]
+    },
+    {
+        "question": "Quelle est la capitale de la suisse ?",
+        "answers": [
+            { "text": "Berne", "correct": true },
+            { "text": "Lyon", "correct": false },
+            { "text": "Marseille", "correct": false },
+            { "text": "Nice", "correct": false }
+        ]
+    }
+   
+]
