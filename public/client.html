@@ -1,21 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Quiz</title>
-    <link rel="stylesheet" href="./assets/style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+   <link rel="stylesheet" href="./assets/css/stiles.css">
+   <title>Akiirranonymous | Guru Quiz </title>
 </head>
 <body>
-    <div id="quiz-container">
-        <h2 id="question">Question importé depuis le JSON</h2>
-        <div id="answer-buttons" class="btn-grid">
-            <button class="btn">Réponse 1</button>
-            <button class="btn">Réponse 2</button>
-            <button class="btn">Réponse 3</button>
-            <button class="btn">Réponse 4</button>
-        </div>
-        <button id="next-button" onclick="showNextQuestion()">Question Suivante</button>
-    </div>
-    <script src="./assets/script.js"></script>
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="cli.html" class="nav__logo">
+            Santhakumaran.ch - Akiirranonymous branch
+         </a>
+      </nav>
+   </header>
+   <main class="main">
+      <section class="home section" id="home">
+         <img src="./assets/img/wallpapersden.com_aarburg-castle-switzerland_4500x2902.jpg" alt="home image" class="home__bg">
+         <div class="home__shadow"></div>
+         <div class="home__container container grid">
+            <div class="home__data">
+            <h1 class="home__title" id="title">
+                <i class="ri-timer-line"></i> <div id="timer"></div>
+            </h1>
+            <h3 class="home__subtitle" id="subtitle">
+                <p id="question"></p>
+             </h3>
+             <p class="home__description">
+                 Indice : aucune réponse n'est correcte.
+            </p>
+            </div>
+               <ul id="choices">
+                  <button type="buttonOption">Option 1</button>
+                  <button type="buttonOption">Option 2</button>
+                  <button type="buttonOption">Option 3</button>
+                  <button type="buttonOption">Option 4</button>
+               </ul>
+         </div>
+      </section>
+   <script src="./assets/js/scrollreveal.min.js"></script>
+   <script src="./assets/js/form.js"></script>
+   <script src="./assets/js/main.js"></script>
+   <script src="./assets/js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,17 @@
+[
+    {
+        "question": "Quelle est la capitale de la France ?",
+        "choices": ["Paris", "Londres", "Berlin"],
+        "correct": 0
+    },
+    {
+        "question": "Quelle est la couleur du ciel par temps clair ?",
+        "choices": ["Rouge", "Bleu", "Vert"],
+        "correct": 1
+    },
+    {
+        "question": "Quel est le résultat de 2 + 2 ?",
+        "choices": ["3", "4", "5"],
+        "correct": 1
+    }
+]

@@ -1,23 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Mon jeu de géographie</title>
-  <link rel="stylesheet" href="./assets/style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+   <link rel="stylesheet" href="./assets/css/stiles.css">
+   <title>Akiirranonymous | Guru Quiz </title>
 </head>
 <body>
-  <h1>Bienvenue dans mon jeu</h1>
-  <form id="saisie-form">
-    <label for="nom-joueur">Nom du joueur :</label>
-    <input type="text" id="nom-joueur" name="nom-joueur">
-    <button type="submit">Connecter</button>
-  </form>
-  <div id="utilisateurs-connectes">
-    <p>Les utilisateurs en lignes <span></span></p>
-  </div>
-  <div id="message-confirmation"></div>
-  <div id="nombre-utilisateurs"></div>
-  <div id="afficher-nom"></div>
-  <script src="./assets/form.js"></script>
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="cli.html" class="nav__logo">
+            Santhakumaran.ch - Akiirranonymous branch
+         </a>
+      </nav>
+   </header>
+   <main class="main">
+      <section class="home section" id="home">
+         <img src="./assets/img/wallpapersden.com_aarburg-castle-switzerland_4500x2902.jpg" alt="home image" class="home__bg">
+         <div class="home__shadow"></div>
+         <div class="home__container container grid">
+            <div class="home__data">
+              <h3 class="home__subtitle" id="subtitle">
+                Veuillez choisir un pseudo !
+             </h3>
+             <h1 class="home__title" id="title">
+                Guru Quiz
+             </h1>
+             <p class="home__description" id="description">
+                Attention ! Vous ne pouvez pas changer votre nom une fois que vous avez commencé à jouer.
+                Choisir avec soin votre nom, pour éviter des problèmes de connexion et des bans par le serveur.
+             </p>
+               <form id="saisie-form">
+                <label for="nom-joueur"></label>
+                <input type="text" id="nom-joueur" name="nom-joueur" placeholder="Entrez votre nom">
+                <button type="submit">connecter au serveur </button>
+             </form>
+            <div id="utilisateurs-connectes">
+              <p><span></span></p>
+            </div>
+            <div id="message-confirmation"></div>
+            <div id="nombre-utilisateurs"></div>
+            <div id="afficher-nom"></div>
+            </div>
+      </section>
+   <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+   </a>
+   <script src="./assets/js/scrollreveal.min.js"></script>
+   <script src="./assets/js/form.js"></script>
+   <script src="./assets/js/main.js"></script>
 </body>
 </html>

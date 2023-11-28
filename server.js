@@ -42,7 +42,7 @@ wss.on('connection', (socket, req) => {
               userSocket.send(JSON.stringify({ 
                 type: 'redirect', 
                 message: 'Le nombre de joueurs requis pour commencer le jeu est atteint.', 
-                redirect: '/santhakumaran-serverID:' + userSessionId 
+                redirect: '/client.html'
               }));
             }
           });
